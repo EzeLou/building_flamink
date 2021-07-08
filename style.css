@@ -8,6 +8,10 @@ html {
   background-color: #ffffff;
 }
 
+#img {
+  height: 100%;
+}
+
 #construccion {
   color: #3c3d3c;
   text-align: center;
@@ -32,4 +36,10 @@ footer {
   font-size: 2rem;
   font-weight: 700;
   font-family: 'Dosis', sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+  #img {
+    height: auto;
+  }
 }
