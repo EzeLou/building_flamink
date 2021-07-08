@@ -1,0 +1,159 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+h1{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 5px;
+  padding: 0px;
+  list-style: none;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.contenedor{
+    background-color: lightcoral;
+    width: 100%;
+    margin: 0px auto;
+    min-height: 1000px;
+}
+
+.fitpage{
+  width: 85%;
+  margin: 0px auto;
+}
+
+header {
+  background: url(img/banner.jpg);
+  background-position: 50% 100%;
+  background-size: 300%;
+  background-position-x: center;
+  height: 270px;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  letter-spacing: 2px;
+}
+
+nav{
+  width: calc(100% - 20px);
+  height: 30px;
+  padding: 10px;
+  line-height: 15px;
+  background-color:#282828;
+}
+
+nav ul{
+  width: 400px; margin: 0px auto;
+}
+
+nav ul li{
+  float: left;
+  margin: 10px;
+}
+
+nav ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.clarfix{
+  clear: both;
+}
+
+#content{
+  float: left;
+  width: calc(50% - 20px);
+  min-height: 1000px;
+  background-color:lightcyan;
+  padding: 10px;
+}
+
+aside{
+  float: left;
+  width: calc(50% - 20px);
+  min-height: 1000px;
+  background-color: lightblue;
+  padding: 10px;
+
+}
+
+.cheap + div{
+  visibility: hidden;
+}
+
+/*
+.article{
+  color: #282828;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.PF{
+  clear: both;
+  list-style: none;
+  float: left;
+}*/
+
+footer{
+  clear: both;
+  background-color: #282828;
+  color: white;
+  height: 35px; 
+  line-height: 35px;
+  text-align: center;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+  font-style: italic;
+  font-size: 15px;
+}
+
+/*
+section{
+    background-color:;
+    width: 65%;
+    margin: 0px auto;
+    float: left;
+    min-height: 500px;
+}
+
+aside{
+    background-color:;
+    width: calc (35% -20px);
+    padding: 10px;
+    margin: 0px auto;
+    float: left;
+    min-height:  500px;
+}
+
+  .PF{
+    background-color: rgb(24, 86, 219);
+  }
+  
+
+footer{
+    background-color: grey;
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+  }
+
+
+
